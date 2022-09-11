@@ -24,6 +24,8 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    //require('dotenv').config();
+    //console.log(process.env["API_KEY"])
   }
 
   async login() {
